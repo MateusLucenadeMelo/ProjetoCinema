@@ -7,7 +7,7 @@ from validacao import *
 
 usuarios = {'1234': ['cris', 1, '123456'], '1235': ['cristi', 2, '123456']}
 filmes = [{'nome': 'gato de botas 1', 'genero': 'M', 'sinopse': 'aventuras', 'capacidade': 4, 'valor': 2},
-          {'nome': 'moto queiro fantasma', 'genero': 'M', 'sinopse': 'motos', 'capacidade': 4, 'valor': 2},
+          {'nome': 'motoqueiro fantasma', 'genero': 'M', 'sinopse': 'motos', 'capacidade': 4, 'valor': 2},
           {'nome': 'bruxa', 'genero': 'M', 'sinopse': 'feticeira', 'capacidade': 4, 'valor': 2},
           {'nome': 'balei azul', 'genero': 'M', 'sinopse': 'oceano', 'capacidade': 4, 'valor': 2}
           ]
@@ -121,6 +121,6 @@ while (opmenu_pr != '0'):
         cadastra_usuario(usuarios)
 
     elif (opmenu_pr == '0'):
-        print('pograma em serrado com suscerso')
+        print('pograma encerrando com sucesso')
     else:
-        print('Opição invalida')
+        print('Opção invalida')
