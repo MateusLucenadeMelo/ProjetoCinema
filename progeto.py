@@ -121,6 +121,6 @@ while (opmenu_pr != '0'):
         cadastra_usuario(usuarios)
 
     elif (opmenu_pr == '0'):
-        print('pograma encerrando com sucesso')
+        print('pograma encerrado com sucesso')
     else:
         print('Opção invalida')
